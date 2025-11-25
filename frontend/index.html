@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASSEMBEDO Mahamadi - Développeur Full Stack</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta property="og:title" content="TASSEMBEDO Mahamadi - Développeur Full Stack">
+    <meta property="og:description" content="Développeur Full Stack passionné par la création de solutions digitales innovantes">
+    <meta property="og:image" content="images/avatar.jpg">
+    <meta property="og:url" content="https://votre-portfolio.com">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="modern-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <div class="logo">
+                        <span class="logo-icon">M</span>
+                        <span class="logo-name">Mahamadi</span>
+                    </div>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#accueil" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span class="link-text">Accueil</span>
+                    </a></li>
+                    <li><a href="#apropos" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span class="link-text">À propos</span>
+                    </a></li>
+                    <li><a href="#parcours" class="nav-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span class="link-text">Parcours</span>
+                    </a></li>
+                    <li><a href="#competences" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span class="link-text">Compétences</span>
+                    </a></li>
+                    <li><a href="#projets" class="nav-link">
+                        <i class="fas fa-briefcase"></i>
+                        <span class="link-text">Projets</span>
+                    </a></li>
+                    <li><a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span class="link-text">Contact</span>
+                    </a></li>
+                </ul>
+
+                <div class="mobile-toggle">
+                    <div class="toggle-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1>Développeur Full Stack Passionné</h1>
+                    <p>Je crée des expériences digitales innovantes en combinant design moderne et technologies robustes. Mon objectif : transformer vos idées en solutions concrètes et performantes.</p>
+                    <div class="hero-btns">
+                        <a href="#projets" class="btn">
+                            <i class="fas fa-rocket"></i>
+                            Voir mes projets
+                        </a>
+                        <a href="cv/CV_TASSEMBEDO_Mahamadi.pdf" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            Télécharger CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i>
+                            Me contacter
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://linkedin.com/in/mohamed-tasse" target="_blank" class="social-hero" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Dima5670602" target="_blank" class="social-hero" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://wa.me/22654458712" target="_blank" class="social-hero" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com/mohamed.jr.tassembedo" target="_blank" class="social-hero" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com/tassembedom5" target="_blank" class="social-hero" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <img src="images/avatar.jpg" alt="TASSEMBEDO Mahamadi" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="images/avatar.jpg" alt="TASSEMBEDO Mahamadi" class="about-img">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <p>Je suis un développeur full stack passionné par l'informatique et la programmation. Actuellement en Licence Génie Logiciel à l'Université Virtuelle du Burkina Faso, je me spécialise dans le développement web et mobile.</p>
+                    <p>Ambitieux et travailleur, je suis constamment à la recherche de nouvelles technologies et techniques pour répondre efficacement aux exigences du marché. Mes principaux atouts sont ma capacité à travailler en équipe et sous pression, mon adaptation rapide à de nouveaux environnements et mes compétences en communication.</p>
+                    <p>Je maîtrise plusieurs langages de programmation et frameworks, et j'ai réalisé de nombreux projets académiques et professionnels qui démontrent mes compétences techniques et ma capacité à résoudre des problèmes complexes.</p>
+                    
+                    <div class="about-stats" id="stats-container">
+                        <!-- Les stats seront chargées dynamiquement -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Background Section -->
+    <section id="parcours" class="academic">
+        <div class="container">
+            <h2 data-aos="fade-up">Parcours Académique</h2>
+            <div class="academic-timeline" data-aos="fade-up">
+                <div class="academic-item">
+                    <div class="academic-year">2021 - 2024</div>
+                    <div class="academic-content">
+                        <h3>Licence en Génie Logiciel</h3>
+                        <p class="academic-institution">Université Virtuelle du Burkina Faso (UV-BF)</p>
+                        <p>Spécialisation en développement web et mobile.</p>
+                    </div>
+                </div>
+                <div class="academic-item">
+                    <div class="academic-year">2020 - 2021</div>
+                    <div class="academic-content">
+                        <h3>Baccalauréat Scientifique</h3>
+                        <p class="academic-institution">Lycée Wend Manegré I de Bogodogo</p>
+                        <p>Option Sciences Exactes (Mathématiques, Physique-Chimie).</p>
+                    </div>
+                </div>
+                <div class="academic-item">
+                    <div class="academic-year">2016 - 2017</div>
+                    <div class="academic-content">
+                        <h3>Brevet d'Études du Premier Cycle (BEPC)</h3>
+                        <p class="academic-institution">Collège d'Enseignement Général de Ouagadougou</p>
+                        <p>Diplôme obtenu avec mention Assez bien.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 data-aos="fade-up">Mes compétences</h2>
+            <div class="skills-container">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5 skill-icon icon-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt skill-icon icon-css3"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square skill-icon icon-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react skill-icon icon-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-flutter">Fl</i>
+                            <span>Flutter</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-python skill-icon icon-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-django">Dj</i>
+                            <span>Django</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js skill-icon icon-nodejs"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-express">Ex</i>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-restapi">API</i>
+                            <span>API REST</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-database"></i> Bases de données</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="skill-icon icon-postgresql">Pg</i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-mysql">My</i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-firebase">Fb</i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fas fa-tools"></i> Outils & Design</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt skill-icon icon-git"></i>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-figma">Fi</i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-vscode">VS</i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-illustrator">Ai</i>
+                            <span>Adobe Illustrator</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-scrum">Sc</i>
+                            <span>Scrum</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="skill-icon icon-drawio">Dr</i>
+                            <span>Draw.io</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 data-aos="fade-up">Mes projets</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Les projets seront chargés dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal pour les détails des projets -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Contenu chargé dynamiquement -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>tassembedom5@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+226 64046120 / 54458712 (WhatsApp)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Localisation</h3>
+                            <p>Ouagadougou, Burkina Faso</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/votre-profil" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/votre-profil" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://wa.me/22654458712" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com/votre-profil" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com/votre-profil" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" id="submitBtn">
+                        <span id="submitText">Envoyer le message</span>
+                        <div id="loadingSpinner" class="spinner" style="display: none;"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Mahamadi</div>
+                    <p>Développeur Full Stack passionné par la création de solutions digitales innovantes et performantes.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Dima5670602" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/mohamed-tasse" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/22654458712" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#parcours">Parcours</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> tassembedom5@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +226 64046120</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Ouagadougou, Burkina Faso</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TASSEMBEDO Mahamadi. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
